@@ -1,5 +1,5 @@
 PKG_NAME := perl-Test-Deep
-URL := http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Deep-0.119.tar.gz
+URL := http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Deep-1.120.tar.gz
 ARCHIVES :=
 
 include ../common/Makefile.common
