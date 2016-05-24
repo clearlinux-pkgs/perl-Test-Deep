@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Deep
 Version  : 1.120
-Release  : 11
+Release  : 12
 URL      : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Deep-1.120.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Deep-1.120.tar.gz
 Summary  : unknown
@@ -56,49 +56,49 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/All.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Any.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Array.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/ArrayEach.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/ArrayElementsOnly.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/ArrayLength.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/ArrayLengthOnly.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Blessed.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Boolean.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Cache.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Cache/Simple.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Class.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Cmp.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Code.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Hash.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/HashEach.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/HashElements.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/HashKeys.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/HashKeysOnly.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Ignore.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Isa.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/ListMethods.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/MM.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Methods.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/NoTest.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/None.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Number.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Obj.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Ref.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/RefType.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Regexp.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/RegexpMatches.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/RegexpOnly.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/RegexpRef.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/RegexpRefOnly.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/RegexpVersion.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/ScalarRef.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/ScalarRefOnly.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Set.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Shallow.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/Stack.pm
-/usr/lib/perl5/site_perl/5.22.0/Test/Deep/String.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/All.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Any.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Array.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/ArrayEach.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/ArrayElementsOnly.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/ArrayLength.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/ArrayLengthOnly.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Blessed.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Boolean.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Cache.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Cache/Simple.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Class.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Cmp.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Code.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Hash.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/HashEach.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/HashElements.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/HashKeys.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/HashKeysOnly.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Ignore.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Isa.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/ListMethods.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/MM.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Methods.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/NoTest.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/None.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Number.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Obj.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Ref.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/RefType.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Regexp.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/RegexpMatches.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/RegexpOnly.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/RegexpRef.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/RegexpRefOnly.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/RegexpVersion.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/ScalarRef.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/ScalarRefOnly.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Set.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Shallow.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/Stack.pm
+/usr/lib/perl5/site_perl/5.24.0/Test/Deep/String.pm
 
 %files doc
 %defattr(-,root,root,-)
