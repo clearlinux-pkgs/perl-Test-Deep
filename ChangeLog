@@ -1,7 +1,26 @@
 Revision history for Test-Deep
 
-0.120     2015-11-27
+1.123     2016-09-09
+        - remove test suite reliance on "." appearing @INC (thanks, Graham Knop
+          and Karen Etheridge!)
+        - when an object with stringification overloading fails to match a
+          "re" test, its stringification is included in the diagnostics
+
+1.122     2016-09-07
+        - added $Test::Deep::LeafWrapper to control the behavior of simple
+          values in the "expected" definition; by default, they are treated as
+          shallow($x) tests, but you can now say (for example)
+          C<< $Test::Deep::LeafWrapper = \&str >> to always treat the got value
+          as a string, even if blessed, etc.
+
+1.121_001 2016-07-19
+        - documentation improvements
+        - avoid a few evals, localize $@ in a few places where eval is used
+        - good bye tabs, hello spaces
+
+1.120     2015-11-27
         - no changes since 0.119_01
+        - this massive version bump was a mistake
 
 0.119_01  2015-11-19
         - add none() test; it's like any(), but negative
