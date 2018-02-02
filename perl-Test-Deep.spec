@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Deep
 Version  : 1.127
-Release  : 22
+Release  : 23
 URL      : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Deep-1.127.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Test-Deep-1.127.tar.gz
 Summary  : unknown
