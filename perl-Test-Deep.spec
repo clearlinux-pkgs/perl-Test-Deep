@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Deep
 Version  : 1.130
-Release  : 44
+Release  : 45
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Summary  : unknown
@@ -82,46 +82,46 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/All.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Any.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Array.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/ArrayEach.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/ArrayElementsOnly.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/ArrayLength.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/ArrayLengthOnly.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Blessed.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Boolean.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Cache.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Cache/Simple.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Class.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Cmp.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Code.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Hash.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/HashEach.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/HashElements.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/HashKeys.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/HashKeysOnly.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Ignore.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Isa.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/ListMethods.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/MM.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Methods.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/NoTest.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/None.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Number.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Obj.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Ref.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/RefType.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Regexp.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/RegexpMatches.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/RegexpOnly.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/RegexpRef.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/RegexpRefOnly.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/RegexpVersion.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/ScalarRef.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/ScalarRefOnly.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Set.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Shallow.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/Stack.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Test/Deep/String.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/All.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Any.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Array.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/ArrayEach.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/ArrayElementsOnly.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/ArrayLength.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/ArrayLengthOnly.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Blessed.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Boolean.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Cache.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Cache/Simple.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Class.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Cmp.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Code.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Hash.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/HashEach.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/HashElements.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/HashKeys.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/HashKeysOnly.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Ignore.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Isa.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/ListMethods.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/MM.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Methods.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/NoTest.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/None.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Number.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Obj.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Ref.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/RefType.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Regexp.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/RegexpMatches.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/RegexpOnly.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/RegexpRef.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/RegexpRefOnly.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/RegexpVersion.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/ScalarRef.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/ScalarRefOnly.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Set.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Shallow.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/Stack.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Test/Deep/String.pm
