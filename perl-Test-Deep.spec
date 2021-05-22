@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Deep
 Version  : 1.130
-Release  : 50
+Release  : 51
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Summary  : unknown
