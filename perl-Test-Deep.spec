@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Deep
 Version  : 1.204
-Release  : 56
+Release  : 57
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.204.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.204.tar.gz
 Summary  : 'Extremely flexible deep comparison'
